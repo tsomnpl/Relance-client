@@ -138,7 +138,7 @@ export async function POST(request: Request) {
             content: buildPrompt(payload),
           },
         ],
-        temperature: 0.4,
+        temperature: 0.5,
         max_tokens: 220,
       }),
       cache: "no-store",
